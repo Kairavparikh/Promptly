@@ -1,4 +1,10 @@
+import {
+  createEvent,
+  findEventsByDate,
+  getLocalDateString,
+} from "@/lib/calendarApiFunctions";
 import { getRestrictedHours, saveEventTags } from "@/lib/firebase";
+import { transcribeAudio } from "@/lib/ttsAPI";
 import { GoogleSignin } from "@react-native-google-signin/google-signin";
 import { Audio } from "expo-av";
 import { router } from "expo-router";
@@ -15,12 +21,6 @@ import {
   View,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { transcribeAudio } from "./(tabs)/ttsAPI";
-import {
-  createEvent,
-  findEventsByDate,
-  getLocalDateString,
-} from "./calendarApiFunctions";
 
 // API Configuration
 const API_BASE_URL =

@@ -1,3 +1,10 @@
+import {
+  checkTimeSlotConflict,
+  deleteTodaysEvent,
+  findEventsByDate,
+  getLocalDateString,
+  moveEvent,
+} from "@/lib/calendarApiFunctions";
 import { getAllEventTags } from "@/lib/firebase";
 import {
   GoogleSignin,
@@ -20,13 +27,6 @@ import {
   View,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import {
-  checkTimeSlotConflict,
-  deleteTodaysEvent,
-  findEventsByDate,
-  getLocalDateString,
-  moveEvent,
-} from "../calendarApiFunctions";
 
 // Your API base URL - change this to your deployed API URL
 const API_BASE_URL = "https://web-production-0c742.up.railway.app"; // Production

@@ -1,7 +1,7 @@
+import { transcribeAudio } from "@/lib/ttsAPI";
 import { Audio } from "expo-av";
 import { useEffect, useState } from "react";
 import { Alert, Button, Text, View } from "react-native";
-import { transcribeAudio } from "./ttsAPI";
 
 export default function WhisperSTT() {
   const [isRecording, setIsRecording] = useState(false);

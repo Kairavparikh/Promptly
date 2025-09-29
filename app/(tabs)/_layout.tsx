@@ -44,19 +44,7 @@ export default function TabLayout() {
           ),
         }}
       />
-      <Tabs.Screen
-        name="tts"
-        options={{
-          title: "TTS",
-          tabBarIcon: ({ color, focused }) => (
-            <IconSymbol
-              name={focused ? "mic.fill" : "mic"}
-              size={24}
-              color={color}
-            />
-          ),
-        }}
-      />
+
     </Tabs>
   );
 }
