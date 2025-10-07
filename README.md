@@ -2,6 +2,10 @@
 > **Video Demonstration**
 
 https://drive.google.com/file/d/1I8XjQSBovHzcBv6L2SAfDi9fHkzIdPP5/view?usp=sharing
+
+> **DevPost Link**
+https://devpost.com/software/promptly-52t9a3
+> 
 > **Smart AI-Powered Day Planning & Calendar Management**
 
 PromptlyAI is an intelligent React Native app that revolutionizes how you plan and manage your daily schedule. Using advanced AI algorithms and seamless Google Calendar integration, it automatically creates optimized schedules based on your natural language input while respecting your existing commitments and preferences.
